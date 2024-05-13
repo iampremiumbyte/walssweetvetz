@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>$WalsSweetBetz</title>
+  </head>
+  <body>
+    <img src="/SITE (2).png" usemap="image-map" />
+
+    <a href="https://twitter.com/walsweetbetz" class="box" id="box1"></a>
+    <a href="#" class="box" id="box2"></a>
+    <a href="https://t.me/walsweetbetzportal" class="box" id="box3"></a>
+
+    <map name="image-map">
+      <area
+        id="area1"
+        target=""
+        alt="dextools"
+        title="dextools"
+        href=""
+        coords="307,754,522,1024"
+        shape="rect"
+      />
+      <area
+        id="area2"
+        target=""
+        alt="twitter"
+        title="twitter"
+        href=""
+        coords="547,768,762,1026"
+        shape="rect"
+      />
+      <area
+        id="area3"
+        target=""
+        alt="telegram"
+        title="telegram"
+        href=""
+        coords="789,773,1003,1034"
+        shape="rect"
+      />
+    </map>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+      integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/rwdImageMaps.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
